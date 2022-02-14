@@ -157,8 +157,6 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Resultado.class);
         i.putExtra("resultado", r);
         startActivity(i);
-
-
     }
 
 }

@@ -26,9 +26,12 @@ public class calculadora {
     }
 
     public void div(int num1, int num2){
+        double n1, n2;
+        n1 = Double.valueOf(num1);
+        n2 = Double.valueOf(num2);
         double res_div = 0;
         try {
-            res_div = num1/num2;
+            res_div = n1/n2;
         }catch (Exception e){
             this.resultado = 0;
         }
